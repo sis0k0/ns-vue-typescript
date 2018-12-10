@@ -96,8 +96,8 @@ module.exports = env => {
                 '@': appFullPath,
                 'vue': 'nativescript-vue'
             },
-            // don't resolve symlinks to symlinked modules
-            symlinks: false,
+            // resolve symlinks to symlinked modules
+            symlinks: true,
         },
         resolveLoader: {
             // don't resolve symlinks to symlinked loaders
