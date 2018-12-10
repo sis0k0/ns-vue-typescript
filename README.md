@@ -1,4 +1,4 @@
-# NativeScript-Vue Application
+# NativeScript-Vue Application with TypeScript
 
 > A native application built with NativeScript-Vue
 
